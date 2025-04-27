@@ -1,14 +1,9 @@
 #!/bin/bash
-
 # Update the package list
-sudo apt update
-
+sudo apk update
 # Install Java (OpenJDK)
-sudo apt install default-jdk
-
+sudo apk add openjdk8
 # Install Node.js and npm
-sudo apt install nodejs
-
+sudo apk add nodejs
 # Install PM2
 sudo npm install -g pm2
-
